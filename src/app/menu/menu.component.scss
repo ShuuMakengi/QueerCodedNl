@@ -1,0 +1,18 @@
+.menu-animate {
+  animation-name: appear;
+  animation-delay: 3s;
+  opacity:0;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes appear {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}

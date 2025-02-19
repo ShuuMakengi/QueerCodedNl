@@ -1,3 +1,34 @@
 .title {
   color: ivory;
+  font-size: 50px;
+  font-family: Times, Times New Roman, serif;
+  margin-bottom: 16px;
+}
+
+.split-text-container {
+  display: flex;
+  font-size: 5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  overflow: hidden;
+}
+
+.title-animate {
+  animation-name: appear;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes appear {
+  0% {
+    opacity:0;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity:1;
+    transform: translateY(0);
+  }
 }
